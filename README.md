@@ -5,11 +5,12 @@
 
 ### 拷贝ssl证书
 ```
-chain.pem(第一段----BEGIN CERTIFICATE---—) > rootCa.pem
+chain.pem(第一段----BEGIN CERTIFICATE---—) > rootCA.pem
 cert.pem > server.crt
 privkey.pem > server.key
 ```
-
+git remote set-url origin git@github.com:lizhijundev/ngrok-docker.git
+git push -u origin main
 
 #### docker-compose 方式启动
 
